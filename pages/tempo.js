@@ -1,3 +1,5 @@
+import { revalidatePath } from "next/cache";
+
 function Tempo(props) {
   console.log("> Passando pelo FrontEnd");
   const dynamicDate = new Date();
@@ -18,7 +20,7 @@ export async function getStaticProps() {
     props: {
       staticDateString
     },
-    revalidate: 1
+    revalidatePath: 1
   }
 }
 
