@@ -2,21 +2,6 @@ import { useState } from "react"
 
 function Home() {
   return (
-    <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Open+Sans:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevLinks</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
     <div id="container">
       <div id="profile">
         <img
@@ -68,20 +53,7 @@ function Home() {
         <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
       </footer>
     </div>
-
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-
-    <script src="./script.js"></script>
-  </body>
-</html>
-  )
+    )
 }
 
 function Contador(){
