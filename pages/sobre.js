@@ -3,9 +3,9 @@ import { useState } from "react"
 function Sobre() {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Sobre</h1>
       <Contador />
-      <a href="/sobre">Acessar página Sobre</a>
+      <a href="/">Acessar página Home</a>
     </div>
   )
 }
@@ -23,4 +23,4 @@ function Contador() {
   )
 }
 
-export default Home
+export default Sobre
