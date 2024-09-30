@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function Sobre() {
+function Home() {
   return (
     <div>
       <h1>Home</h1>
