@@ -5,6 +5,26 @@ function Home() {
     <div>
       <h1>Sejam Bem-Vindos!</h1>
       <Contador />
+      <ul>
+        <li>
+          <a href="home.html">Home</a>
+        </li>
+        <li>
+          <a href="servicos.html">Serviços</a>
+        </li>
+        <li>
+          <a href="convenios.html">Convênios</a>
+        </li>
+        <li>
+          <a href="parcerias.html">Parcerias</a>
+        </li>
+        <li>
+          <a href="comite.html">Comitê</a>
+        </li>
+        <li>
+          <a href="contatos.html">Contatos</a>
+        </li>
+      </ul>
     </div>
   )
 }
