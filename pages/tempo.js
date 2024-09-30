@@ -6,7 +6,8 @@ function Tempo(props) {
       <div>{dynamicDateString} (dinâmico)</div>
       <div>{props.staticDateString} (estático)</div>
     </div>
-  )
+    )
+}
 
 export function getStaticProps() {
   const dynamicDate = new Date()
